@@ -3,10 +3,22 @@
     text-align: center;
 }
 
-.containerp{
-    background-color: red;
+.profile-container{
+    width: 1090px;
+    height: 2000px;
 }
 
-.body{
-    background-color: red;
+.prtext{
+    color: rgb(213, 213, 240);
+    text-align: center;
 }
+
+.intext{
+    color: rgb(113, 204, 247);
+    text-align: center;
+}
+
+.att{
+    color: aqua;
+}
+

@@ -8,11 +8,33 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 import './Profile.css';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import {StrictMode} from 'react';
+import {createRoot} from 'react-dom/client';
+
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <Router>
+//     <App />
+//   </Router>
+// );
+
+const rootElement = 
+document.getElementById('root');
+const root = 
+createRoot(rootElement);
+
 root.render(
-  <Router>
+  <StrictMode>
     <App />
-  </Router>
+  </StrictMode>,
 );
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
 
 reportWebVitals();

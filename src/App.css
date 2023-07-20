@@ -1,8 +1,39 @@
 .container {
-  background-color: rgb(58, 62, 69); display: flex;
+  background-color: rgb(58, 62, 69); 
+  display: flex;
   flex: auto;
   flex-wrap: wrap;
   width: 1090px;
+}
+
+.nav {
+  position: fixed;
+  align-items: stretch;
+  justify-content: space-between;
+  display: flex;
+  gap: 2rem;
+  padding: 0 4rem;
+  background-color: rgb(24, 25, 26);
+}
+
+.po-btn {
+  padding: 10px 10px;
+  color: #fff;
+  border: none;
+}
+
+.pr-btn {
+  padding: 10px 10px;
+  color: #fff;
+  border: none;
+}
+
+.blue-color {
+  background: blue;
+}
+
+.orange-color {
+  background: orange;
 }
 
 .jumbotron {
@@ -35,4 +66,8 @@
   font-weight: bold;
   font-style: italic;
   justify-content: space-around;
+}
+
+.active{
+  background-color: red;
 }
