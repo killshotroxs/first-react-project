@@ -1,5 +1,5 @@
 import React from 'react';
-import { useCallback,useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const _renderJumbotron = () => (
     <div class="Jumbotron">
@@ -39,23 +39,24 @@ const _renderJumbotron = () => (
   )
   
   const usePostList = (setPosts) => {
-  
-  useEffect(() => {
+    useEffect(() => {
       fetch("https://jsonplaceholder.typicode.com/posts?_start=0&_limit=30")
       .then(response => response.json())
       .then(result => setPosts(result));
   }, []);
   }
   
-  export default function Postings() {
-  
+  const Postings = () => {
     const [posts, setPosts] = useState([]);
+      
     usePostList(setPosts);
-  return (
-    <div className="container">
+      
+    return (
+      <div className="container">
         {_renderJumbotron()}
         {_renderCard(posts)}
-    </div>
-    )
-  }
-  
+      </div>
+    );
+  };
+    
+  export default Postings;

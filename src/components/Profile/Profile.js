@@ -1,6 +1,8 @@
 import React from 'react';
 
-import profileicon from "./profile-icon.png"
+import profileicon from '../../Assets/profile-icon.png';
+
+import './Profile.css';
 
 export default function Profile() {
   

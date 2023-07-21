@@ -4,8 +4,9 @@
 }
 
 .profile-container{
-    width: 1090px;
+    width: 1263px;
     height: 2000px;
+    background-color: rgb(4, 4, 78);
 }
 
 .prtext{
@@ -21,4 +22,3 @@
 .att{
     color: aqua;
 }
-
