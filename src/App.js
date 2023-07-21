@@ -1,17 +1,18 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Postings from './Postings';
-import Profile from './Profile';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import Navbar from './Components/Navbar/Navbar';
+import Postings from './Components/Postings/Postings';
+import Profile from './Components/Profile/Profile';
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/' exact component={Postings} />
-        <Route path='/profile' component={Profile} />
+        <Route path='/' element={<Navigate to='/postings' />}></Route>
+        <Route path='/postings' element={<Postings />}></Route>
+        <Route path='/profile' element={<Profile />}></Route>
       </Routes>
     </Router>
   );
