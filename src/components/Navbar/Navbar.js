@@ -6,7 +6,6 @@ const Navbar = () => {
       <>
         <Nav>
           <Bars />
-    
           <NavMenu>
             <NavLink to='/Postings' activeStyle>
               Postings
