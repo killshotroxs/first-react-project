@@ -1,24 +1,24 @@
 .headerprofile{
-    background-color:cyan;
-    text-align: center;
+  background-color:cyan;
+  text-align: center;
 }
 
 .profile-container{
-    width: 1263px;
-    height: 2000px;
-    background-color: rgb(4, 4, 78);
+  width: 1263px;
+  height: 2000px;
+  background-color: rgb(4, 4, 78);
 }
 
 .prtext{
-    color: rgb(213, 213, 240);
-    text-align: center;
+  color: rgb(213, 213, 240);
+  text-align: center;
 }
 
 .intext{
-    color: rgb(113, 204, 247);
-    text-align: center;
+  color: rgb(113, 204, 247);
+  text-align: center;
 }
 
 .att{
-    color: aqua;
+  color: aqua;
 }
