@@ -1,6 +1,11 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import {
+  BrowserRouter as Router, 
+  Routes, 
+  Route, 
+  Navigate 
+} from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Postings from './components/Postings/Postings';
 import Profile from './components/Profile/Profile';
