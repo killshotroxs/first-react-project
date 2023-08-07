@@ -28,14 +28,6 @@
   border: none;
 }
 
-.blue-color {
-  background: blue;
-}
-
-.orange-color {
-  background: orange;
-}
-
 .jumbotron {
   background-color: rgb(32, 48, 78);
   font-style: bold;
@@ -69,5 +61,5 @@
 }
 
 .active{
-  background-color: red;
+  background-color: rgb(165, 220, 165);
 }
