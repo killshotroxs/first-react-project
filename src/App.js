@@ -6,9 +6,9 @@ import {
   Route, 
   Navigate 
 } from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar';
-import Postings from './components/Postings/Postings';
-import Profile from './components/Profile/Profile';
+import Navbar from './Components/Navbar/Navbar';
+import Postings from './Components/Postings/Postings';
+import Profile from './Components/Profile/Profile';
 
 function App() {
   return (
