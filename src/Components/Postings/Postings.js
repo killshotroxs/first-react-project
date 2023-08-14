@@ -13,7 +13,7 @@ const _renderCardHeader = (post) => {
     
   return (
     <div className="card-header">
-      #{id}{title}
+      #{id} {title}  //added a sapce here just for a cosmetic change
     </div>
   )
 };
@@ -36,7 +36,7 @@ const handleClick = (setModalDisplay, setSelectedPost, post) => {
 const _renderCard = (posts, setModalDisplay, setSelectedPost) => (
   
   <div className="container">
-    {posts.slice(0, 15).map((post) => (
+    {posts.slice(0, 10).map((post) => ( 
       <div className="card" key={post.id}>
         {_renderCardHeader(post)}
         {_renderCardBody(post)}
