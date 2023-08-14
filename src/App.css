@@ -1,20 +1,92 @@
 .container {
-  background-color: rgb(58, 62, 69); display: flex;
+  background-color: rgb(58, 62, 69); 
+  display: flex;
   flex: auto;
   flex-wrap: wrap;
+  width: 2000px;
+}
+
+.nav {
+  position: fixed;
+  align-items: stretch;
+  justify-content: space-between;
+  display: flex;
+  gap: 2rem;
+  padding: 0 4rem;
+  background-color: rgb(24, 25, 26);
+}
+
+.po-btn {
+  padding: 10px 10px;
+  color: #fff;
+  border: none;
+}
+
+.pr-btn {
+  padding: 10px 10px;
+  color: #fff;
+  border: none;
+}
+
+.title-m{ 
+  background-color: darkblue;
+  color: #fff;
+  text-align: center;
+  height: 110px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  width: 850px;
+  margin-left: 25px;
+}
+
+.open-m{
+  background-color: rgb(2, 2, 157);
+  color: #fff;
+}
+
+.mdl{
+  margin-top: 90px;
+  margin-left: 200px;
+  align-items: center;
+  justify-content: center;
+  width: 900px;
+  height: 350px;
+  background-color: rgb(99, 118, 151) ;
+}
+
+.body-m{
+  width: 850px;
+  height: 150px;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.close-btn{
+  width : 40px;
+  height : 30px;
+  align-items : baseline;
+  justify-content : flex-end;
+  color: #fff;
+  background-color: maroon;
+  margin-left: 860px;
 }
 
 .jumbotron {
-  text-align: center;
   background-color: rgb(32, 48, 78);
   font-style: bold;
   color: white;
-  width: 1090px;
+  align-content: space-between;
+}
+
+.display-4 {
+  color: white;
 }
 
 .card {
   background-color: lightcyan;
-  width: 250px;
+  width: 230px;
   margin-bottom: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -25,9 +97,14 @@
 
 .card-header {
   color: white;
-  width: 250px;
+  width: 230px;
+  height: 120px;
   background-color: darkblue;
   font-weight: bold;
   font-style: italic;
   justify-content: space-around;
+}
+
+.active{
+  background-color: rgb(187, 251, 187);
 }
